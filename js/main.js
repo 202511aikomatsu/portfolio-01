@@ -1,4 +1,4 @@
-//  プロジェクトアーカイブ 共通JS
+//  Stock Note 共通JS
 
 // ナビゲーション生成関数
 function generateNavigation() {
@@ -33,8 +33,8 @@ function generateNavigation() {
 
   const navHTML = `
     <div class="sidebar-header">
-      <div class="logo">PROJECT ARCHIVE</div>
-      <div class="project-name"><br>プロジェクトアーカイブ</div>
+      <div class="logo">STOCK NOTE</div>
+      <div class="project-name"><br>Stock Note</div>
     </div>
     <nav class="sidebar-nav">
       <div class="nav-group">
@@ -74,7 +74,7 @@ function generateNavigation() {
       </div>
     </nav>
     <div class="sidebar-footer">
-      &copy; Project Archive 2026
+      &copy; Stock Note 2026
     </div>
   `;
 
