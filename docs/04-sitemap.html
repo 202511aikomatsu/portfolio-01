@@ -62,14 +62,138 @@
           <div class="fill-label">Webサイト構造図 <span class="required">必須</span></div>
           <div class="fill-hint">トップページから下層ページまでの階層構造をツリー形式で記載</div>
           <div class="fill-content">
-            <p>（ツリー形式のサイト構造図を記載）</p>
+            <p>トップページ</p>
+            <p>├── サービス紹介ページ</p>
+            <p>│   ├── サービスコンセプト</p>
+            <p>│   ├── 解決したい課題</p>
+            <p>│   ├── ターゲットユーザー</p>
+            <p>│   └── 利用シーン</p>
+            <p>├── 機能紹介ページ</p>
+            <p>│   ├── 保有株管理</p>
+            <p>│   ├── 資産推移グラフ</p>
+            <p>│   ├── 配当金管理</p>
+            <p>│   └── 画面イメージ</p>
+            <p>├── 料金・利用案内ページ</p>
+            <p>│   ├── 料金プラン</p>
+            <p>│   ├── 利用開始までの流れ</p>
+            <p>│   ├── 推奨環境</p>
+            <p>│   └── よくある質問</p>
+            <p>├── お知らせ・更新情報ページ</p>
+            <p>│   ├── 新機能のお知らせ</p>
+            <p>│   ├── アップデート履歴</p>
+            <p>│   └── メンテナンス情報</p>
+            <p>└── お問い合わせページ</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;├── 問い合わせフォーム</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;├── 問い合わせ種別</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;└── 注意事項</p>
           </div>
         </div>
         <div class="fill-block">
           <div class="fill-label">Webアプリケーション構造図 <span class="required">必須</span></div>
           <div class="fill-hint">Spring Bootアプリケーションの画面構造をツリー形式で記載</div>
           <div class="fill-content">
-            <p>（ツリー形式のアプリ構造図を記載）</p>
+            <p>【ログイン前】</p>
+            <p>ログイン画面</p>
+            <p>├── ログインフォーム</p>
+            <p>│   ├── メールアドレス入力</p>
+            <p>│   └── パスワード入力</p>
+            <p>├── ログイン実行</p>
+            <p>├── 入力エラー表示</p>
+            <p>└── パスワード再設定画面</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;├── メールアドレス入力</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;└── 再設定案内表示</p>
+            <p>【ログイン後】</p>
+            <p>管理画面トップ（ダッシュボード）</p>
+            <p>├── ヘッダー</p>
+            <p>│   ├── 管理者名表示</p>
+            <p>│   ├── アカウント設定</p>
+            <p>│   └── ログアウト</p>
+            <p>├── サイドメニュー</p>
+            <p>│   ├── ダッシュボード</p>
+            <p>│   ├── ユーザー管理</p>
+            <p>│   ├── 保有株管理</p>
+            <p>│   ├── 資産推移管理</p>
+            <p>│   ├── 配当金管理</p>
+            <p>│   ├── お知らせ管理</p>
+            <p>│   └── 問い合わせ管理</p>
+            <p>├── サマリー表示</p>
+            <p>│   ├── 登録ユーザー数</p>
+            <p>│   ├── 保有株データ件数</p>
+            <p>│   ├── お知らせ件数</p>
+            <p>│   └── 未対応問い合わせ件数</p>
+            <p>└── 新着情報</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;├── 最新のお知らせ</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;└── 最近の問い合わせ</p>
+            <p>ユーザー管理</p>
+            <p>├── ユーザー一覧画面</p>
+            <p>│   ├── 検索条件入力</p>
+            <p>│   ├── 一覧表示</p>
+            <p>│   ├── 詳細画面への遷移</p>
+            <p>│   ├── 新規登録</p>
+            <p>│   └── CSV出力</p>
+            <p>├── ユーザー詳細画面</p>
+            <p>│   ├── 基本情報表示</p>
+            <p>│   ├── 保有株情報表示</p>
+            <p>│   ├── 配当情報表示</p>
+            <p>│   └── 編集画面への遷移</p>
+            <p>├── ユーザー新規登録画面</p>
+            <p>├── ユーザー編集画面</p>
+            <p>└── ユーザー削除確認画面</p>
+            <p>保有株管理</p>
+            <p>├── 保有株一覧画面</p>
+            <p>│   ├── 検索条件入力</p>
+            <p>│   ├── 一覧表示</p>
+            <p>│   ├── 詳細画面への遷移</p>
+            <p>│   └── 新規登録</p>
+            <p>├── 保有株詳細画面</p>
+            <p>├── 保有株新規登録画面</p>
+            <p>├── 保有株編集画面</p>
+            <p>└── 保有株削除確認画面</p>
+            <p>資産推移管理</p>
+            <p>├── 資産推移一覧画面</p>
+            <p>│   ├── ユーザー検索</p>
+            <p>│   ├── 日付絞り込み</p>
+            <p>│   ├── 一覧表示</p>
+            <p>│   └── 新規登録</p>
+            <p>├── 資産推移詳細画面</p>
+            <p>├── 資産推移新規登録画面</p>
+            <p>├── 資産推移編集画面</p>
+            <p>└── 資産推移削除確認画面</p>
+            <p>配当金管理</p>
+            <p>├── 配当金一覧画面</p>
+            <p>│   ├── ユーザー検索</p>
+            <p>│   ├── 銘柄検索</p>
+            <p>│   ├── 一覧表示</p>
+            <p>│   └── 新規登録</p>
+            <p>├── 配当金詳細画面</p>
+            <p>├── 配当金新規登録画面</p>
+            <p>├── 配当金編集画面</p>
+            <p>└── 配当金削除確認画面</p>
+            <p>お知らせ管理</p>
+            <p>├── お知らせ一覧画面</p>
+            <p>│   ├── 検索条件入力</p>
+            <p>│   ├── 一覧表示</p>
+            <p>│   ├── 公開状態表示</p>
+            <p>│   └── 新規登録</p>
+            <p>├── お知らせ詳細画面</p>
+            <p>├── お知らせ新規登録画面</p>
+            <p>├── お知らせ編集画面</p>
+            <p>└── お知らせ削除確認画面</p>
+            <p>問い合わせ管理</p>
+            <p>├── 問い合わせ一覧画面</p>
+            <p>│   ├── 検索条件入力</p>
+            <p>│   ├── ステータス絞り込み</p>
+            <p>│   ├── 一覧表示</p>
+            <p>│   └── 詳細画面への遷移</p>
+            <p>├── 問い合わせ詳細画面</p>
+            <p>│   ├── 問い合わせ内容表示</p>
+            <p>│   ├── 対応状況更新</p>
+            <p>│   └── 管理者メモ</p>
+            <p>└── 問い合わせ完了更新</p>
+            <p>アカウント設定</p>
+            <p>├── 管理者情報表示</p>
+            <p>├── パスワード変更</p>
+            <p>└── プロフィール編集</p>
           </div>
         </div>
 
@@ -83,10 +207,13 @@
         <table class="doc-table">
           <thead><tr><th>No.</th><th>ページ名</th><th>ページの目的</th><th>主要コンテンツ</th></tr></thead>
           <tbody>
-          <tr class="template-row"><td>1</td><td>（トップページ）</td><td>（サービスの魅力を伝え、各ページへ誘導）</td><td>（ヒーロー、サービス紹介、CTA等）</td></tr>
-          <tr class="template-row"><td>2</td><td>（ページ名）</td><td>（目的を記載）</td><td>（コンテンツを記載）</td></tr>
-          <tr class="template-row"><td>3</td><td>（ページ名）</td><td>（目的を記載）</td><td>（コンテンツを記載）</td></tr>
-          <tr class="template-row"><td>…</td><td>…</td><td>…</td><td>…</td></tr>
+          <tr class="template-row"><td>1</td><td>トップページ</td><td>サービスの概要や魅力を最初に伝え、興味を持ってもらう</td><td>サービス名、キャッチコピー、サービス概要、主な特長、画面イメージ、各ページへの導線</td></tr>
+          <tr class="template-row"><td>2</td><td>サービス紹介ページ</td><td>Stock Noteが解決する課題やサービスの価値を詳しく伝える</td><td>サービスコンセプト、解決したい課題、解決アプローチ、ターゲットユーザー、利用シーン</td></tr>
+          <tr class="template-row"><td>3</td><td>機能紹介ページ</td><td>保有株管理・資産推移グラフ・配当金管理の機能を具体的に説明する</td><td>機能一覧、各機能の説明、利用メリット、画面イメージ、操作イメージ</td></tr>
+          <tr class="template-row"><td>4</td><td>料金・利用案内ページ</td><td>利用方法や料金体系を案内し、導入の判断材料を提供する</td><td>料金プラン、無料/有料の違い、利用開始までの流れ、推奨環境、利用上の注意</td></tr>
+          <tr class="template-row"><td>5</td><td>お知らせ・更新情報ページ</td><td>サービスに関する最新情報を利用者へ伝える</td><td>新機能のお知らせ、アップデート履歴、メンテナンス情報、運営からの案内</td></tr>
+          <tr class="template-row"><td>6</td><td>お問い合わせページ</td><td>利用者からの質問や相談を受け付ける窓口とする</td><td>問い合わせフォーム、問い合わせ種別、返信目安、注意事項、FAQへの導線</td></tr>
+          <tr class="template-row"><td>7</td><td>よくある質問ページ</td><td>利用前・利用中の疑問を自己解決しやすくする</td><td>アカウント関連、料金関連、機能関連、利用環境、問い合わせ前の案内</td></tr>
           </tbody>
         </table>
 
@@ -97,10 +224,13 @@
         <table class="doc-table">
           <thead><tr><th>No.</th><th>画面名</th><th>画面の目的</th><th>主要機能</th></tr></thead>
           <tbody>
-          <tr class="template-row"><td>1</td><td>（ログイン画面）</td><td>（ユーザー認証）</td><td>（メールアドレス/パスワード入力）</td></tr>
-          <tr class="template-row"><td>2</td><td>（一覧画面）</td><td>（データの一覧表示）</td><td>（検索・ソート・ページネーション）</td></tr>
-          <tr class="template-row"><td>3</td><td>（登録画面）</td><td>（新規データ登録）</td><td>（入力フォーム・バリデーション）</td></tr>
-          <tr class="template-row"><td>…</td><td>…</td><td>…</td><td>…</td></tr>
+          <tr class="template-row"><td>1</td><td>トップページ</td><td>サービスの概要や魅力を最初に伝え、利用意欲を高める</td><td>サービス概要表示、キャッチコピー表示、主要機能紹介、各ページへの導線表示</td></tr>
+          <tr class="template-row"><td>2</td><td>サービス紹介ページ</td><td>Stock Noteのコンセプトや解決する課題を詳しく伝える</td><td>サービス説明表示、課題・解決内容の紹介、ターゲットユーザー表示、利用シーン紹介</td></tr>
+          <tr class="template-row"><td>3</td><td>機能紹介ページ</td><td>保有株管理・資産推移グラフ・配当金管理の機能を具体的に案内する</td><td>機能一覧表示、各機能の詳細説明、利用メリット表示、画面イメージ表示</td></tr>
+          <tr class="template-row"><td>4</td><td>料金・利用案内ページ</td><td>利用方法や料金体系を案内し、導入判断をしやすくする</td><td>料金プラン表示、無料/有料比較、利用開始手順表示、推奨環境表示</td></tr>
+          <tr class="template-row"><td>5</td><td>お知らせ・更新情報ページ</td><td>サービスに関する最新情報や更新内容を利用者に伝える</td><td>お知らせ一覧表示、アップデート情報表示、メンテナンス情報表示</td></tr>
+          <tr class="template-row"><td>6</td><td>お問い合わせページ</td><td>利用者からの質問や相談を受け付ける</td><td>問い合わせフォーム入力、問い合わせ種別選択、送信機能、注意事項表示</td></tr>
+          <tr class="template-row"><td>7</td><td>よくある質問ページ</td><td>利用前・利用中の疑問を自己解決しやすくする</td><td>FAQ一覧表示、カテゴリ別表示、質問検索、問い合わせページへの導線表示</td></tr>
           </tbody>
         </table>
 
@@ -114,7 +244,46 @@
           <div class="fill-label">メインシナリオ <span class="required">必須</span></div>
           <div class="fill-hint">ペルソナがサイトに訪問してから目的を達成するまでの動線（メインの行動パターン）</div>
           <div class="fill-content">
-            <p>（メインのユーザーフローを記載）</p>
+            <p><strong>1. ステップ</strong><br>1</p>
+            <p><strong>行動</strong><br>資産管理しやすいサービスを探すために、検索エンジンで「保有株 管理 配当 資産推移」などで検索する</p>
+            <p><strong>表示ページ</strong><br>検索結果ページ</p>
+            <p><strong>次のアクション</strong><br>Stock Noteのトップページをクリックする</p>
+            <p><strong>2. ステップ</strong><br>2</p>
+            <p><strong>行動</strong><br>サービス名、キャッチコピー、概要を見て、自分向けのサービスかを判断する</p>
+            <p><strong>表示ページ</strong><br>トップページ</p>
+            <p><strong>次のアクション</strong><br>「サービス紹介」または「機能紹介」へ進む</p>
+            <p><strong>3. ステップ</strong><br>3</p>
+            <p><strong>行動</strong><br>保有株管理・資産推移グラフ・配当金管理ができることを確認し、自分の目的に合うか検討する</p>
+            <p><strong>表示ページ</strong><br>サービス紹介ページ</p>
+            <p><strong>次のアクション</strong><br>詳しい機能を確認するため「機能紹介ページ」へ進む</p>
+            <p><strong>4. ステップ</strong><br>4</p>
+            <p><strong>行動</strong><br>自分が求める「保有株をまとめて確認したい」「配当も見たい」「グラフで推移を見たい」という機能があるか確認する</p>
+            <p><strong>表示ページ</strong><br>機能紹介ページ</p>
+            <p><strong>次のアクション</strong><br>利用イメージを持つため画面イメージや利用メリットを見る</p>
+            <p><strong>5. ステップ</strong><br>5</p>
+            <p><strong>行動</strong><br>画面の見やすさや、操作が複雑すぎないかを確認する</p>
+            <p><strong>表示ページ</strong><br>機能紹介ページ</p>
+            <p><strong>次のアクション</strong><br>料金や利用方法を確認するため「料金・利用案内ページ」へ進む</p>
+            <p><strong>6. ステップ</strong><br>6</p>
+            <p><strong>行動</strong><br>無料で始められるか、有料プランとの違いは何かを確認する</p>
+            <p><strong>表示ページ</strong><br>料金・利用案内ページ</p>
+            <p><strong>次のアクション</strong><br>まずは試してみようと考え、利用開始を検討する</p>
+            <p><strong>7. ステップ</strong><br>7</p>
+            <p><strong>行動</strong><br>利用開始までの流れや登録方法を確認し、手間が少なそうか判断する</p>
+            <p><strong>表示ページ</strong><br>料金・利用案内ページ</p>
+            <p><strong>次のアクション</strong><br>「新規登録」または「無料で始める」をクリックする</p>
+            <p><strong>8. ステップ</strong><br>8</p>
+            <p><strong>行動</strong><br>会員登録に必要な情報を入力し、アカウントを作成する</p>
+            <p><strong>表示ページ</strong><br>新規登録ページ</p>
+            <p><strong>次のアクション</strong><br>登録完了後、ログインする</p>
+            <p><strong>9. ステップ</strong><br>9</p>
+            <p><strong>行動</strong><br>初回ログイン後、保有株や配当金情報を入力し、自分の資産状況を登録する</p>
+            <p><strong>表示ページ</strong><br>初期設定ページ / ダッシュボード</p>
+            <p><strong>次のアクション</strong><br>保有株情報の登録を進める</p>
+            <p><strong>10. ステップ</strong><br>10</p>
+            <p><strong>行動</strong><br>登録した情報をもとに、資産推移グラフや年間配当の見込みを確認する</p>
+            <p><strong>表示ページ</strong><br>ダッシュボード画面</p>
+            <p><strong>次のアクション</strong><br>週末や平日夜に定期的に利用する</p>
           </div>
         </div>
         <div class="fill-block">
@@ -135,14 +304,86 @@
         <table class="doc-table">
           <thead><tr><th>URL</th><th>HTTPメソッド</th><th>画面/機能</th><th>説明</th></tr></thead>
           <tbody>
-          <tr class="template-row"><td>/</td><td>GET</td><td>トップページ</td><td>Webサイトのトップ</td></tr>
-          <tr class="template-row"><td>/about</td><td>GET</td><td>概要ページ</td><td>サービスの概要</td></tr>
-          <tr class="template-row"><td>/app/login</td><td>GET</td><td>ログイン画面</td><td>ログインフォーム表示</td></tr>
-          <tr class="template-row"><td>/app/login</td><td>POST</td><td>ログイン処理</td><td>認証処理</td></tr>
-          <tr class="template-row"><td>/app/items</td><td>GET</td><td>一覧画面</td><td>データ一覧表示</td></tr>
-          <tr class="template-row"><td>/app/items/new</td><td>GET</td><td>新規登録画面</td><td>登録フォーム表示</td></tr>
-          <tr class="template-row"><td>/app/items</td><td>POST</td><td>新規登録処理</td><td>データ保存</td></tr>
-          <tr class="template-row"><td>…</td><td>…</td><td>…</td><td>…</td></tr>
+          <tr class="template-row"><td><strong>1. Webサイト部分 URL設計</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td>/</td><td>GET</td><td>トップページ</td><td>サービス概要、キャッチコピー、主要導線を表示する</td></tr>
+          <tr class="template-row"><td>/about</td><td>GET</td><td>サービス紹介ページ</td><td>サービス概要、解決課題、ターゲット、利用シーンを表示する</td></tr>
+          <tr class="template-row"><td>/features</td><td>GET</td><td>機能紹介ページ</td><td>保有株管理、資産推移グラフ、配当金管理の機能を紹介する</td></tr>
+          <tr class="template-row"><td>/pricing</td><td>GET</td><td>料金・利用案内ページ</td><td>料金プラン、利用開始までの流れ、推奨環境を表示する</td></tr>
+          <tr class="template-row"><td>/news</td><td>GET</td><td>お知らせ一覧ページ</td><td>お知らせや更新情報の一覧を表示する</td></tr>
+          <tr class="template-row"><td>/news/{id}</td><td>GET</td><td>お知らせ詳細ページ</td><td>指定したお知らせの詳細を表示する</td></tr>
+          <tr class="template-row"><td>/contact</td><td>GET</td><td>お問い合わせ入力ページ</td><td>問い合わせフォームを表示する</td></tr>
+          <tr class="template-row"><td>/contact</td><td>POST</td><td>お問い合わせ送信機能</td><td>問い合わせ内容を送信する</td></tr>
+          <tr class="template-row"><td>/contact/complete</td><td>GET</td><td>お問い合わせ完了ページ</td><td>問い合わせ送信完了メッセージを表示する</td></tr>
+          <tr class="template-row"><td>/faq</td><td>GET</td><td>FAQページ</td><td>よくある質問を一覧表示する</td></tr>
+          <tr class="template-row"><td>/signup</td><td>GET</td><td>新規登録ページ</td><td>サービス利用開始のための登録フォームを表示する</td></tr>
+          <tr class="template-row"><td>/signup</td><td>POST</td><td>新規登録機能</td><td>新規ユーザー情報を登録する</td></tr>
+          <tr class="template-row"><td>/signup/complete</td><td>GET</td><td>新規登録完了ページ</td><td>登録完了メッセージを表示する</td></tr>
+          <tr class="template-row"><td>/login</td><td>GET</td><td>ログインページ</td><td>ログインフォームを表示する</td></tr>
+          <tr class="template-row"><td>/login</td><td>POST</td><td>ログイン機能</td><td>ログイン認証を行う</td></tr>
+          <tr class="template-row"><td>/logout</td><td>POST</td><td>ログアウト機能</td><td>ログアウト処理を行う</td></tr>
+          <tr class="template-row"><td><strong>2. Spring Bootアプリ部分 URL設計</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td><strong>2-1. 共通 / 認証 / ダッシュボード</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td>/admin/login</td><td>GET</td><td>管理者ログイン画面</td><td>管理者用ログインフォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/login</td><td>POST</td><td>管理者ログイン機能</td><td>管理者認証を行う</td></tr>
+          <tr class="template-row"><td>/admin/logout</td><td>POST</td><td>管理者ログアウト機能</td><td>管理画面からログアウトする</td></tr>
+          <tr class="template-row"><td>/admin</td><td>GET</td><td>ダッシュボード</td><td>管理画面トップを表示する</td></tr>
+          <tr class="template-row"><td>/admin/account</td><td>GET</td><td>アカウント設定画面</td><td>管理者情報や設定内容を表示する</td></tr>
+          <tr class="template-row"><td>/admin/account/edit</td><td>GET</td><td>アカウント編集画面</td><td>管理者情報の編集フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/account</td><td>PUT</td><td>アカウント更新機能</td><td>管理者情報を更新する</td></tr>
+          <tr class="template-row"><td>/admin/account/password</td><td>GET</td><td>パスワード変更画面</td><td>パスワード変更フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/account/password</td><td>PUT</td><td>パスワード更新機能</td><td>パスワードを更新する</td></tr>
+          <tr class="template-row"><td><strong>2-2. ユーザー管理</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td>/admin/users</td><td>GET</td><td>ユーザー一覧画面</td><td>ユーザー一覧と検索結果を表示する</td></tr>
+          <tr class="template-row"><td>/admin/users/new</td><td>GET</td><td>ユーザー新規登録画面</td><td>新規登録フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/users</td><td>POST</td><td>ユーザー登録機能</td><td>新規ユーザーを登録する</td></tr>
+          <tr class="template-row"><td>/admin/users/{id}</td><td>GET</td><td>ユーザー詳細画面</td><td>指定したユーザーの詳細を表示する</td></tr>
+          <tr class="template-row"><td>/admin/users/{id}/edit</td><td>GET</td><td>ユーザー編集画面</td><td>指定したユーザーの編集フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/users/{id}</td><td>PUT</td><td>ユーザー更新機能</td><td>指定したユーザー情報を更新する</td></tr>
+          <tr class="template-row"><td>/admin/users/{id}/delete</td><td>GET</td><td>ユーザー削除確認画面</td><td>削除確認画面を表示する</td></tr>
+          <tr class="template-row"><td>/admin/users/{id}</td><td>DELETE</td><td>ユーザー削除機能</td><td>指定したユーザーを削除する</td></tr>
+          <tr class="template-row"><td><strong>2-3. 保有株管理</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td>/admin/stocks</td><td>GET</td><td>保有株一覧画面</td><td>保有株一覧と検索結果を表示する</td></tr>
+          <tr class="template-row"><td>/admin/stocks/new</td><td>GET</td><td>保有株新規登録画面</td><td>保有株登録フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/stocks</td><td>POST</td><td>保有株登録機能</td><td>保有株情報を登録する</td></tr>
+          <tr class="template-row"><td>/admin/stocks/{id}</td><td>GET</td><td>保有株詳細画面</td><td>指定した保有株情報を表示する</td></tr>
+          <tr class="template-row"><td>/admin/stocks/{id}/edit</td><td>GET</td><td>保有株編集画面</td><td>指定した保有株の編集フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/stocks/{id}</td><td>PUT</td><td>保有株更新機能</td><td>指定した保有株情報を更新する</td></tr>
+          <tr class="template-row"><td>/admin/stocks/{id}/delete</td><td>GET</td><td>保有株削除確認画面</td><td>削除確認画面を表示する</td></tr>
+          <tr class="template-row"><td>/admin/stocks/{id}</td><td>DELETE</td><td>保有株削除機能</td><td>指定した保有株情報を削除する</td></tr>
+          <tr class="template-row"><td><strong>2-4. 資産推移管理</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td>/admin/asset-histories</td><td>GET</td><td>資産推移一覧画面</td><td>資産推移データ一覧と検索結果を表示する</td></tr>
+          <tr class="template-row"><td>/admin/asset-histories/new</td><td>GET</td><td>資産推移新規登録画面</td><td>資産推移登録フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/asset-histories</td><td>POST</td><td>資産推移登録機能</td><td>資産推移データを登録する</td></tr>
+          <tr class="template-row"><td>/admin/asset-histories/{id}</td><td>GET</td><td>資産推移詳細画面</td><td>指定した資産推移データを表示する</td></tr>
+          <tr class="template-row"><td>/admin/asset-histories/{id}/edit</td><td>GET</td><td>資産推移編集画面</td><td>指定した資産推移データの編集フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/asset-histories/{id}</td><td>PUT</td><td>資産推移更新機能</td><td>指定した資産推移データを更新する</td></tr>
+          <tr class="template-row"><td>/admin/asset-histories/{id}/delete</td><td>GET</td><td>資産推移削除確認画面</td><td>削除確認画面を表示する</td></tr>
+          <tr class="template-row"><td>/admin/asset-histories/{id}</td><td>DELETE</td><td>資産推移削除機能</td><td>指定した資産推移データを削除する</td></tr>
+          <tr class="template-row"><td><strong>2-5. 配当金管理</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td>/admin/dividends</td><td>GET</td><td>配当金一覧画面</td><td>配当金一覧と検索結果を表示する</td></tr>
+          <tr class="template-row"><td>/admin/dividends/new</td><td>GET</td><td>配当金新規登録画面</td><td>配当金登録フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/dividends</td><td>POST</td><td>配当金登録機能</td><td>配当金情報を登録する</td></tr>
+          <tr class="template-row"><td>/admin/dividends/{id}</td><td>GET</td><td>配当金詳細画面</td><td>指定した配当金情報を表示する</td></tr>
+          <tr class="template-row"><td>/admin/dividends/{id}/edit</td><td>GET</td><td>配当金編集画面</td><td>指定した配当金情報の編集フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/dividends/{id}</td><td>PUT</td><td>配当金更新機能</td><td>指定した配当金情報を更新する</td></tr>
+          <tr class="template-row"><td>/admin/dividends/{id}/delete</td><td>GET</td><td>配当金削除確認画面</td><td>削除確認画面を表示する</td></tr>
+          <tr class="template-row"><td>/admin/dividends/{id}</td><td>DELETE</td><td>配当金削除機能</td><td>指定した配当金情報を削除する</td></tr>
+          <tr class="template-row"><td><strong>2-6. お知らせ管理</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td>/admin/news</td><td>GET</td><td>お知らせ一覧画面</td><td>お知らせ一覧と検索結果を表示する</td></tr>
+          <tr class="template-row"><td>/admin/news/new</td><td>GET</td><td>お知らせ新規登録画面</td><td>お知らせ登録フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/news</td><td>POST</td><td>お知らせ登録機能</td><td>お知らせを登録する</td></tr>
+          <tr class="template-row"><td>/admin/news/{id}</td><td>GET</td><td>お知らせ詳細画面</td><td>指定したお知らせの詳細を表示する</td></tr>
+          <tr class="template-row"><td>/admin/news/{id}/edit</td><td>GET</td><td>お知らせ編集画面</td><td>指定したお知らせの編集フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/news/{id}</td><td>PUT</td><td>お知らせ更新機能</td><td>指定したお知らせを更新する</td></tr>
+          <tr class="template-row"><td>/admin/news/{id}/delete</td><td>GET</td><td>お知らせ削除確認画面</td><td>削除確認画面を表示する</td></tr>
+          <tr class="template-row"><td>/admin/news/{id}</td><td>DELETE</td><td>お知らせ削除機能</td><td>指定したお知らせを削除する</td></tr>
+          <tr class="template-row"><td><strong>2-7. 問い合わせ管理</strong></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr class="template-row"><td>/admin/inquiries</td><td>GET</td><td>問い合わせ一覧画面</td><td>問い合わせ一覧と検索結果を表示する</td></tr>
+          <tr class="template-row"><td>/admin/inquiries/{id}</td><td>GET</td><td>問い合わせ詳細画面</td><td>指定した問い合わせ内容を表示する</td></tr>
+          <tr class="template-row"><td>/admin/inquiries/{id}/edit</td><td>GET</td><td>問い合わせ編集画面</td><td>対応状況や管理メモの編集フォームを表示する</td></tr>
+          <tr class="template-row"><td>/admin/inquiries/{id}</td><td>PUT</td><td>問い合わせ更新機能</td><td>対応状況や管理メモを更新する</td></tr>
+          <tr class="template-row"><td>/admin/inquiries/{id}/delete</td><td>GET</td><td>問い合わせ削除確認画面</td><td>削除確認画面を表示する</td></tr>
+          <tr class="template-row"><td>/admin/inquiries/{id}</td><td>DELETE</td><td>問い合わせ削除機能</td><td>問い合わせ情報を削除する</td></tr>
           </tbody>
         </table>
 

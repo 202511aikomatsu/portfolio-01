@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>マーケットリサーチ - Stock Note</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
   <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
   <button class="hamburger" aria-label="メニュー">
     <span></span><span></span><span></span>
   </button>
 
   <div class="page-wrapper">
-  <aside class="sidebar" data-nav-level="docs"></aside>
+    <aside class="sidebar" data-nav-level="docs"></aside>
 
     <main class="main-content">
       <header class="doc-header">
@@ -38,7 +41,8 @@
           </div>
           <div class="external-link-input">
             <input type="text" placeholder="https://docs.google.com/spreadsheets/d/xxxxx" id="external-link-02">
-            <a href="#" class="link-btn" onclick="window.open(document.getElementById('external-link-02').value || 'https://docs.google.com', '_blank'); return false;">
+            <a href="#" class="link-btn"
+              onclick="window.open(document.getElementById('external-link-02').value || 'https://docs.google.com', '_blank'); return false;">
               <span class="material-symbols-outlined">open_in_new</span>
               開く
             </a>
@@ -59,27 +63,93 @@
         <section class="section" id="sec1">
           <h2 class="section-title"><span class="section-icon">1</span> 3C分析</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">Customer（顧客） <span class="required">必須</span></div>
-          <div class="fill-hint">ターゲット顧客の特徴・ニーズ・行動パターン</div>
-          <div class="fill-content">
-            <p>（顧客分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Customer（顧客） <span class="required">必須</span></div>
+            <div class="fill-hint">ターゲット顧客の特徴・ニーズ・行動パターン</div>
+            <div class="fill-content">
+              <p><strong>ターゲット顧客の特徴（年齢層、職業、ライフスタイル）</strong></p>
+              <p>
+                主な顧客は30代〜70代のビジネスパーソンで、会社員、管理職、公務員、専門職、退職後の再雇用層などを想定する。日本の個人投資家調査では、証券保有者は60代以上の比率が高い一方、若年層の株主数も増加しており、幅広い年代で株式投資が浸透している。仕事や生活の合間に、短時間で資産状況を確認したい層が中心となる。
+              </p>
+              <p><strong>顧客のニーズや悩み</strong></p>
+              <p>
+                顧客は、保有株・資産推移・配当金をまとめて把握したいというニーズを持つ。現状は情報が複数画面や複数サービスに分散しやすく、資産全体の状況や長期投資の成果が見えにくいことが悩みになりやすい。また、投資先選定では高配当や安定性を重視する傾向があり、値動きだけでなく配当収入も含めて管理したい需要がある。
+              </p>
+              <p><strong>顧客の行動パターン（情報収集の方法、購買行動）</strong></p>
+              <p>
+                情報収集はインターネットのWebサイトが中心で、投資の勉強手段としてはWebサイト、本、SNS動画系も活用されている。購入後のアフターフォローや要望対応については満足度が相対的に低く、顧客は「わかりやすさ」だけでなく、継続して使いやすいサービス体験も重視していると考えられる。こうした層は、複雑な高機能ツールよりも、必要な情報を整理して見せるサービスを選びやすい。
+              </p>
+              <p><strong>市場のトレンド</strong></p>
+              <p>
+                市場では、新NISAの拡大を背景に個人投資家が増加しており、2024年度の個人株主数は1,599万人で過去最高となった。人数ベースでは若年層の参加も増え、少額投資の裾野が広がっている。今後も投資しやすい環境整備が進む見通しで、資産形成を支援する、わかりやすい個人向け資産管理サービスへの需要は高まりやすい。
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Competitor（競合） <span class="required">必須</span></div>
-          <div class="fill-hint">競合サービスの特徴・強み・弱み</div>
-          <div class="fill-content">
-            <p>（競合分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Competitor（競合） <span class="required">必須</span></div>
+            <div class="fill-hint">競合サービスの特徴・強み・弱み</div>
+            <div class="fill-content">
+              <p><strong>1. マネーフォワード ME</strong></p>
+              <p><strong>サービス名：</strong>マネーフォワード ME</p>
+              <p>
+                <strong>特徴：</strong>銀行・証券・クレジットカードなどを連携し、資産を一元管理できる。投資向けの「資産形成アドバンスコース」では、配当履歴・予想配当、業種別内訳、配当利回り別内訳なども確認できる。
+              </p>
+              <p><strong>強み：</strong>口座連携による自動集約が強く、株式以外の資産もまとめて把握しやすい。配当やポートフォリオ分析も用意されており、総合的な資産管理サービスとして完成度が高い。</p>
+              <p>
+                <strong>弱み：</strong>家計簿・総合資産管理の色が強いため、株式管理だけをシンプルに見たい利用者には情報量が多く感じられる可能性がある。また、投資特化の高度機能はアドバンスコースでの提供で、公式サポートでは現時点でアプリ版中心と案内されている。これは、Stock
+                Noteのような株管理特化・Webで見やすい構成とは立ち位置が異なると言える。</p>
+              <p><strong>自社サービスとの比較での差別化ポイント：</strong>Stock
+                Noteは、家計や他資産全般まで広げすぎず、保有株・資産推移・配当金の3要素に絞って、シンプルに確認できる点で差別化できる。特に、投資状況を短時間で整理したい30代〜70代のビジネスパーソンに向けて、画面構成をわかりやすく設計しやすい。
+              </p>
+              <p>※この差別化ポイントは、上記の公式機能・ポジショニングを踏まえた比較上の整理です。</p>
+              <p><strong>2. Yahoo!ファイナンス（ポートフォリオ）</strong></p>
+              <p><strong>サービス名：</strong>Yahoo!ファイナンス（ポートフォリオ）</p>
+              <p><strong>特徴：</strong>Yahoo! JAPAN
+                IDでログインして使う無料のポートフォリオ機能で、気になる銘柄をまとめてチェックできる。購入シミュレーションや、売り時・買い時の確認、比較用途での利用を打ち出している。</p>
+              <p><strong>強み：</strong>無料で始めやすく、知名度が高い。気になる銘柄を登録して値動きを追う用途に向いており、株初心者でも使い始めやすい。</p>
+              <p><strong>弱み：</strong>公式の訴求は「気になる株を気軽に管理する」ことや購入シミュレーション、売買タイミングの確認が中心で、Stock
+                Noteの核である保有株管理・資産推移・配当金管理を一体で整理する設計とは方向性が異なる。したがって、長期保有の資産全体をまとめて見たいユーザーには物足りなさが出る可能性がある。</p>
+              <p>※これは公式の機能訴求内容をもとにした比較上の評価です。</p>
+              <p><strong>自社サービスとの比較での差別化ポイント：</strong>Stock
+                Noteは、ウォッチリスト的な使い方ではなく、実際に保有している株の管理、資産の増減の可視化、配当金の把握までを一つの流れで確認できる点を前面に出せる。無料の株価チェックサービスより、“持っている資産を管理するサービス”として位置づけやすい。
+              </p>
+              <p><strong>3. カビュウ</strong></p>
+              <p><strong>サービス名：</strong>カビュウ</p>
+              <p>
+                <strong>特徴：</strong>株式投資の管理・分析に特化したアプリで、資産推移、損益推移、取引履歴、配当金実績、今後1年予想、増配ニュース、複数口座連携などに対応している。有料プランでは過去全期間の表示や米国株対応、登録口座数拡張なども提供している。
+              </p>
+              <p><strong>強み：</strong>株式投資の分析機能が非常に豊富で、資産・損益の推移、取引結果、配当実績などを深く見られる。複数証券口座の集計や米国株対応など、投資管理ツールとしての専門性が高い。
+              </p>
+              <p>
+                <strong>弱み：</strong>公式機能を見る限り、分析軸が多く高機能である分、初心者や「必要最小限で見たい」層には機能が多く感じられる可能性がある。また、有料プランで機能差が大きく、無料版では口座数や表示期間などに制約がある。
+              </p>
+              <p><strong>自社サービスとの比較での差別化ポイント：</strong>Stock
+                Noteは、カビュウのような“高度分析型”ではなく、保有株・資産推移・配当金を見やすく整理することに絞った、シンプルで継続利用しやすい設計で差別化できる。特に、投資分析を細かく掘るよりも、日々の確認をわかりやすく行いたいビジネスパーソン向けという立ち位置が明確になる。
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">Company（自社） <span class="required">必須</span></div>
-          <div class="fill-hint">自分のサービスの強み・提供できる価値</div>
-          <div class="fill-content">
-            <p>（自社分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Company（自社） <span class="required">必須</span></div>
+            <div class="fill-hint">自分のサービスの強み・提供できる価値</div>
+            <div class="fill-content">
+              <p><strong>提供できる価値</strong></p>
+              <p>Stock
+                Noteは、保有株管理・資産推移グラフ・配当金管理を一つにまとめて確認できる価値を提供できる。情報が分散しがちな投資状況をシンプルに整理し、利用者が資産全体を短時間で把握できる点が価値となる。特に、忙しい30代〜70代のビジネスパーソンに対して、日々の確認をわかりやすくし、継続的な資産管理を支援できる。
+              </p>
+              <p><strong>独自の強み</strong></p>
+              <p>
+                独自の強みは、機能を株式資産管理に絞ったシンプルさにある。総合家計簿サービスのように情報が広がりすぎず、高機能分析ツールのように複雑になりすぎないため、必要な情報だけを見やすく提供できる。保有株、資産推移、配当金という長期投資で重視される3要素を一体で管理できる点が差別化につながる。
+              </p>
+              <p><strong>活用できるリソース</strong></p>
+              <p>活用できるリソースとしては、Spring
+                Bootによる管理システム開発、Webサイト制作、CRUDや検索機能の実装経験を活かした設計力が挙げられる。また、ターゲットや競合分析を踏まえて、利用者視点で画面構成や導線を考えられる点も強みとなる。シンプルなUI設計と情報整理力を活かし、使いやすいサービス体験を構築できる。
+              </p>
+              <p><strong>弱み・課題</strong></p>
+              <p>
+                弱み・課題は、口座連携や自動データ取得など、大手競合が持つ利便性に対して機能面で見劣りする可能性があることである。また、資産管理サービスは信頼性が重視されるため、UI/UXだけでなく、データの正確性や継続利用を促す仕組みも重要になる。今後は、入力負担の軽減や、継続して使いたくなる導線設計が課題となる。
+              </p>
+            </div>
           </div>
-        </div>
 
         </section>
 
@@ -90,13 +160,44 @@
             <div class="fill-label">SWOT分析マトリクス <span class="required">必須</span></div>
             <div class="fill-hint">Strengths（強み）・Weaknesses（弱み）・Opportunities（機会）・Threats（脅威）</div>
 
-        <table class="doc-table">
-          <thead><tr><th></th><th>プラス要因</th><th>マイナス要因</th></tr></thead>
-          <tbody>
-          <tr class="template-row"><td><strong>内部環境</strong></td><td><strong>Strengths（強み）</strong><br>（3つ以上記載）</td><td><strong>Weaknesses（弱み）</strong><br>（3つ以上記載）</td></tr>
-          <tr class="template-row"><td><strong>外部環境</strong></td><td><strong>Opportunities（機会）</strong><br>（3つ以上記載）</td><td><strong>Threats（脅威）</strong><br>（3つ以上記載）</td></tr>
-          </tbody>
-        </table>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>プラス要因</th>
+                  <th>マイナス要因</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="template-row">
+                  <td><strong>内部環境</strong></td>
+                  <td><strong>Strengths（強み）</strong><br><br><strong>1.
+                      機能を絞ったわかりやすさ</strong><br>保有株管理・配当金管理・資産推移グラフに機能を絞ることで、情報過多になりにくく、30代〜70代のビジネスパーソンでも直感的に使いやすい。<br><br><strong>2.
+                      長期投資に必要な情報を一元化できる</strong><br>保有株、資産の増減、配当収入を一つで確認できるため、日々の投資状況を短時間で整理しやすい。無料のウォッチリスト型サービスより、実保有資産の管理に向いている。Yahoo!ファイナンスの公式訴求は「気になる株を気軽に管理」が中心で、方向性が異なる。<br><br><strong>3.
+                      継続利用しやすい設計にしやすい</strong><br>高度分析よりも「見やすさ」「続けやすさ」を重視できるため、投資初心者から中級者まで日常利用に乗せやすい。<br><br><strong>4.
+                      Webサービスとして整理しやすい</strong><br>競合の一部はアプリ中心や高機能中心である一方、Stock NoteはWebでシンプルに整理された体験を打ち出しやすい。マネーフォワード
+                    MEの資産形成アドバンスコースは現時点でアプリ版中心です。</td>
+                  <td><strong>Weaknesses（弱み）</strong><br><br><strong>1. 自動連携・自動集約で劣りやすい</strong><br>マネーフォワード
+                    MEは銀行・証券・配当情報などを広く自動集約できるため、手入力中心だと利便性で見劣りしやすい。<br><br><strong>2.
+                      分析の深さでは競合に劣る</strong><br>カビュウは資産推移、損益推移、配当実績、今後1年予想、増配ニュースなど分析要素が豊富で、上級者向けの深掘り機能では不利になりやすい。<br><br><strong>3.
+                      ブランド信頼・知名度が弱い</strong><br>Yahoo!ファイナンスやマネーフォワードのような大手ブランドと比べると、金融サービスとしての安心感や認知で不利になりやすい。<br><br><strong>4.
+                      機能特化ゆえに対象が限定される</strong><br>総合家計管理や幅広い資産クラスを一括で見たい人には、株式資産寄りの構成が物足りなく映る可能性がある。</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>外部環境</strong></td>
+                  <td><strong>Opportunities（機会）</strong><br><br><strong>1.
+                      新NISA拡大による投資人口の増加</strong><br>NISA口座数は2025年12月末で2,826万口座に達しており、今後も個人投資家向けサービスの需要拡大が見込まれる。<br><br><strong>2.
+                      “高機能すぎないサービス”への需要</strong><br>競合には総合型や分析特化型が多く、「必要な情報だけをわかりやすく見たい」層に向けた中間ポジションを狙いやすい。マネーフォワードは総合資産管理色が強く、カビュウは分析機能が豊富です。<br><br><strong>3.
+                      配当重視の長期投資ニーズへの対応</strong><br>配当の見える化は、長期保有層や中高年層との相性が良い。競合でも配当機能は強化されているため、逆に言えば市場ニーズがあることの裏付けでもある。<br><br><strong>4.
+                      30代〜70代向けの“見やすさ”差別化</strong><br>若年層向けの派手な投資アプリではなく、落ち着いたUIとシンプルな導線で、幅広い年代に使いやすい設計を打ち出せる。</td>
+                  <td><strong>Threats（脅威）</strong><br><br><strong>1. 大手競合の機能拡張</strong><br>マネーフォワード
+                    MEは配当やポートフォリオ分析を強化しており、Yahoo!ファイナンスも無料で手軽なポートフォリオ機能を提供している。今後さらに株管理機能が拡充されると差別化が難しくなる。<br><br><strong>2.
+                      高機能アプリとの比較で見劣りする可能性</strong><br>カビュウのように、資産推移や配当を詳細分析できるサービスが既に存在し、機能比較されるとシンプルさが“機能不足”と受け取られる恐れがある。<br><br><strong>3.
+                      無料サービスとの競争</strong><br>Yahoo!ファイナンスのような無料サービスがあるため、有料化や継続利用価値の訴求が難しくなりやすい。<br><br><strong>4.
+                      金融サービスへの信頼要求の高さ</strong><br>資産情報を扱う以上、UIだけでなく、データ精度・安全性・継続運営への信頼が求められる。新規サービスはこの点で不利になりやすい。</td>
+                </tr>
+              </tbody>
+            </table>
 
           </div>
         </section>
@@ -104,25 +205,85 @@
         <section class="section" id="sec3">
           <h2 class="section-title"><span class="section-icon">3</span> STP分析</h2>
 
-        <div class="fill-block">
-          <div class="fill-label">Segmentation（市場細分化） <span class="required">必須</span></div>
-          <div class="fill-hint">市場をどのような基準で分類するか</div>
-          <div class="fill-content">
-            <p>（セグメンテーションを記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">Segmentation（市場細分化） <span class="required">必須</span></div>
+            <div class="fill-hint">市場をどのような基準で分類するか</div>
+            <div class="fill-content">
+              <p><strong>1. 地理的変数（地域・都市規模）</strong></p>
+              <p><strong>首都圏・大都市圏</strong><br>投資情報に触れる機会が多く、金融サービスやWebサービスへの抵抗が少ない層</p>
+              <p><strong>地方都市</strong><br>安定資産形成や老後資金への関心が高く、使いやすさや信頼感を重視する層</p>
+              <p><strong>郊外・中小都市</strong><br>日常生活の中で無理なく資産管理したい層。シンプルな機能が好まれやすい</p>
+              <p><strong>全国対応型市場</strong><br>地域差よりも、スマホ・PCでどこでも使える利便性が重視される市場</p>
+              <p><strong>2. 人口統計的変数（年齢・性別・職業・年収）</strong></p>
+              <p><strong>年齢</strong></p>
+              <p>20〜30代：NISAや積立投資を始めた初心者層</p>
+              <p>40〜50代：資産形成を本格化した中核層</p>
+              <p>60〜70代：保有資産や配当収入を重視する管理層</p>
+              <p><strong>性別</strong></p>
+              <p>男性：株式投資や資産管理サービス利用率が比較的高い層</p>
+              <p>女性：家計管理や将来の安定資産形成を重視する層</p>
+              <p><strong>職業</strong></p>
+              <p>会社員：忙しい中で短時間で確認したい層</p>
+              <p>管理職・経営者：保有資産を効率的に整理したい層</p>
+              <p>公務員・専門職：安定志向で長期投資を重視する層</p>
+              <p>退職者・再雇用層：配当や老後資産管理を重視する層</p>
+              <p><strong>年収</strong></p>
+              <p>300万〜500万円：少額投資・積立中心</p>
+              <p>500万〜800万円：資産形成と分散投資を進める層</p>
+              <p>800万円以上：複数口座・複数銘柄を管理したい層</p>
+              <p><strong>3. 心理的変数（ライフスタイル・価値観）</strong></p>
+              <p>堅実な資産形成志向：長期投資・配当重視で、安定的に資産を増やしたい</p>
+              <p>効率重視志向：忙しいため、短時間で投資状況を確認したい</p>
+              <p>見える化重視志向：数字だけでなく、グラフや一覧で直感的に把握したい</p>
+              <p>シンプル志向：高機能すぎるツールより、必要な機能だけを求める</p>
+              <p>安心感重視志向：金融サービスに信頼性、見やすさ、操作のわかりやすさを求める</p>
+              <p><strong>4. 行動変数（利用頻度・求めるベネフィット）</strong></p>
+              <p><strong>利用頻度</strong></p>
+              <p>毎日確認する層：株価や資産変動をこまめに見たい</p>
+              <p>週1〜2回確認する層：保有状況や配当見込みを定期的に確認したい</p>
+              <p>月1回確認する層：資産形成の進捗をざっくり把握したい</p>
+              <p><strong>求めるベネフィット</strong></p>
+              <p>保有株をまとめて管理したい</p>
+              <p>資産推移をグラフで見たい</p>
+              <p>配当金を含めた収益状況を把握したい</p>
+              <p>複雑すぎない使いやすい画面がほしい</p>
+              <p>長期投資の成果をわかりやすく確認したい</p>
+            </div>
           </div>
-        </div>
         <div class="fill-block">
           <div class="fill-label">Targeting（ターゲット選定） <span class="required">必須</span></div>
           <div class="fill-hint">どのセグメントを狙うか、その理由</div>
           <div class="fill-content">
-            <p>（ターゲティングを記載）</p>
+            <p><strong>1. 30代〜50代の会社員・管理職層</strong></p>
+            <p><strong>選定したセグメント</strong><br>都市部〜地方都市に住む、30代〜50代の会社員・管理職。NISAや特定口座で株式投資を行い、忙しい日常の中で資産状況を効率よく確認したい層。</p>
+            <p><strong>市場規模（推定）</strong><br>約600万〜1,000万人規模。<br>根拠として、日本の個人株主数は1,599万人で過去最高、NISA口座数は2025年12月末で2,826万口座です。Stock Noteはそのうち、現役就業世代かつ株式資産を継続管理したい層を主要対象とするため、この程度の規模感が妥当です。なお、NISAは口座数ベースであり実人数ではないため、ここでは個人株主数を主な土台にした概算です。</p>
+            <p><strong>選定理由</strong><br>この層は仕事が忙しく、保有株・資産推移・配当金を短時間でまとめて見たいニーズが強いです。新NISAの拡大で投資参加者が増える中、総合家計簿ほど広すぎず、分析特化アプリほど複雑でない、“必要な情報だけをわかりやすく整理するサービス”との相性が良いです。</p>
+            <p><strong>このセグメントのニーズ</strong><br>保有株の状況を一覧で把握したい、資産の増減をグラフで見たい、配当金も含めて資産形成の成果を確認したい、というニーズが中心です。特に、複数画面を行き来せず、シンプルで見やすいUIで確認できることが重要です。これは、情報収集手段としてWebサイト利用が中心である個人投資家の行動とも整合的です。</p>
+            <p><strong>2. 50代〜70代の長期保有・配当重視層</strong></p>
+            <p><strong>選定したセグメント</strong><br>地方都市を含む全国の50代〜70代のビジネスパーソン・再雇用層・退職後層。長期保有を前提に、配当収入や保有資産全体を安定的に管理したい層。</p>
+            <p><strong>市場規模（推定）</strong><br>約500万〜800万人規模。<br>日本証券業協会の2025年調査では、有価証券保有者の60代以上が45.3%を占めています。また、2024年度末の個人株主数は1,599万人です。これらを踏まえると、Stock Noteの対象になりやすい中高年の株式保有層は、かなり大きい市場と見込めます。</p>
+            <p><strong>選定理由</strong><br>この層は、短期売買よりも長期保有・配当重視の傾向と相性がよく、Stock Noteの「保有株管理＋配当金管理＋資産推移グラフ」という構成がそのまま価値になりやすいです。特に、株価だけでなく配当を含めた資産全体の見える化に対するニーズが強く、複雑な分析機能よりも、見やすく続けやすい設計が刺さりやすいと考えられます。</p>
+            <p><strong>このセグメントのニーズ</strong><br>年間配当の見込みを把握したい、保有資産の推移を定期的に確認したい、複雑すぎない画面で安心して使いたい、というニーズがあります。特に、安定収入としての配当や、老後資産も含めた継続的な管理に役立つことが重要です。</p>
           </div>
         </div>
         <div class="fill-block">
           <div class="fill-label">Positioning（ポジショニング） <span class="required">必須</span></div>
           <div class="fill-hint">競合に対してどのような位置づけを取るか</div>
           <div class="fill-content">
-            <p>（ポジショニングを記載）</p>
+            <p><strong>1. 差別化軸</strong></p>
+            <p>横軸：機能のシンプルさ ←→ 分析機能の豊富さ</p>
+            <p>縦軸：株式資産管理特化 ←→ 総合資産管理</p>
+            <p>この2軸にすると、競合の違いを整理しやすいです。マネーフォワード MEは株式以外も含む総合資産管理寄りで、配当やポートフォリオ分析も備えています。Yahoo!ファイナンスのポートフォリオは、気になる株を気軽に管理する無料の銘柄チェック寄りです。カビュウは、過去の資産増減や配当実績まで自動で集計・グラフ化する分析特化型です。</p>
+            <p><strong>2. ポジショニングマップ上での位置</strong></p>
+            <p>Stock Noteは「ややシンプル × 株式資産管理特化」の位置を取るのが適切です。</p>
+            <p>イメージとしては、</p>
+            <p>マネーフォワード ME：総合資産管理 × やや高機能</p>
+            <p>Yahoo!ファイナンス（ポートフォリオ）：シンプル × 銘柄ウォッチ寄り</p>
+            <p>カビュウ：株式資産管理特化 × 高機能分析</p>
+            <p>Stock Note：株式資産管理特化 × シンプルで見やすい</p>
+            <p>という並びです。Stock Noteは、Yahoo!ファイナンスより“保有資産の管理”に踏み込み、カビュウほど分析を重くしない中間ポジションです。</p>
+            <p><strong>3. そのポジションを取る理由</strong></p>
+            <p>理由は、30代〜70代のビジネスパーソンにとって必要なのは、分析の深さより「短時間で状況を把握できること」だからです。Yahoo!ファイナンスは“気になる株を気軽に管理”する色が強く、カビュウは“多彩なビジュアルと豊富な分析機能”が強みです。そこに対してStock Noteは、保有株・資産推移・配当金を一つにまとめて、見やすく整理することを価値にした方が差別化しやすいです。</p>
           </div>
         </div>
 
@@ -133,15 +294,42 @@
 
           <div class="fill-block">
             <div class="fill-label">4P・4C分析 <span class="required">必須</span></div>
-        <table class="doc-table">
-          <thead><tr><th>4P（売り手視点）</th><th>内容</th><th>4C（買い手視点）</th><th>内容</th></tr></thead>
-          <tbody>
-          <tr class="template-row"><td><strong>Product</strong><br>（製品）</td><td>（記載）</td><td><strong>Customer Value</strong><br>（顧客価値）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Price</strong><br>（価格）</td><td>（記載）</td><td><strong>Cost</strong><br>（顧客コスト）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Place</strong><br>（流通）</td><td>（記載）</td><td><strong>Convenience</strong><br>（利便性）</td><td>（記載）</td></tr>
-          <tr class="template-row"><td><strong>Promotion</strong><br>（販促）</td><td>（記載）</td><td><strong>Communication</strong><br>（対話）</td><td>（記載）</td></tr>
-          </tbody>
-        </table>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>4P（売り手視点）</th>
+                  <th>内容</th>
+                  <th>4C（買い手視点）</th>
+                  <th>内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="template-row">
+                  <td><strong>Product</strong><br>（製品）</td>
+                  <td>保有株・配当金・資産推移を一元管理できる資産管理アプリ</td>
+                  <td><strong>Customer Value</strong><br>（顧客価値）</td>
+                  <td>投資状況をひとつで把握でき、管理がわかりやすくなる</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Price</strong><br>（価格）</td>
+                  <td>無料プラン＋一部拡張機能を有料化</td>
+                  <td><strong>Cost</strong><br>（顧客コスト）</td>
+                  <td>お金だけでなく、入力や操作の負担も小さく始めやすい</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Place</strong><br>（流通）</td>
+                  <td>Webブラウザ中心で提供</td>
+                  <td><strong>Convenience</strong><br>（利便性）</td>
+                  <td>端末を選ばず、いつでもどこでも確認しやすい</td>
+                </tr>
+                <tr class="template-row">
+                  <td><strong>Promotion</strong><br>（販促）</td>
+                  <td>見やすさ・続けやすさを軸に訴求</td>
+                  <td><strong>Communication</strong><br>（対話）</td>
+                  <td>安心感のある説明や情報提供で継続利用を促進できる</td>
+                </tr>
+              </tbody>
+            </table>
 
           </div>
         </section>
@@ -150,28 +338,28 @@
           <h2 class="section-title"><span class="section-icon">5</span> 競合サイト分析</h2>
 
 
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 1 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト1の分析を記載）
-（スクリーンショットを配置：&lt;img src=&quot;../images/competitor1.png&quot; alt=&quot;競合サイト1&quot;&gt;）</p>
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 1 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト1の分析を記載）
+                （スクリーンショットを配置：&lt;img src=&quot;../images/competitor1.png&quot; alt=&quot;競合サイト1&quot;&gt;）</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 2 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト2の分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 2 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト2の分析を記載）</p>
+            </div>
           </div>
-        </div>
-        <div class="fill-block">
-          <div class="fill-label">競合サイト 3 <span class="required">必須</span></div>
-          <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
-          <div class="fill-content">
-            <p>（競合サイト3の分析を記載）</p>
+          <div class="fill-block">
+            <div class="fill-label">競合サイト 3 <span class="required">必須</span></div>
+            <div class="fill-hint">サイト名・URL・スクリーンショット・分析</div>
+            <div class="fill-content">
+              <p>（競合サイト3の分析を記載）</p>
+            </div>
           </div>
-        </div>
 
         </section>
 
@@ -181,4 +369,5 @@
 
   <script src="../js/main.js"></script>
 </body>
+
 </html>
