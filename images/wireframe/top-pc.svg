@@ -1,98 +1,117 @@
-<svg width="1200" height="2052" viewBox="0 0 1200 2052" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="2052" fill="#2A2A2A"/>
-  <rect x="72" y="28" width="1056" height="1996" fill="#FAF9F7"/>
-  <rect x="72" y="28" width="1056" height="96" fill="#FFFFFF"/>
-  <text x="122" y="80" fill="#111111" font-family="Arial, sans-serif" font-size="20" font-weight="700">Stock Note</text>
-  <text x="317" y="80" fill="#555555" font-family="Arial, sans-serif" font-size="12">サービス紹介</text>
-  <text x="418" y="80" fill="#999999" font-family="Arial, sans-serif" font-size="12">制作物</text>
-  <text x="494" y="80" fill="#999999" font-family="Arial, sans-serif" font-size="12">プロセス</text>
-  <text x="570" y="80" fill="#999999" font-family="Arial, sans-serif" font-size="12">スキルシート</text>
-  <text x="673" y="80" fill="#999999" font-family="Arial, sans-serif" font-size="12">よくある質問</text>
-  <text x="933" y="80" fill="#111111" font-family="Arial, sans-serif" font-size="12" font-weight="700">ログイン</text>
-  <rect x="1000" y="58" width="90" height="30" fill="#111111"/>
-  <text x="1016" y="78" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="10" font-weight="700">無料で始める</text>
-  <text x="123" y="318" fill="#111111" font-family="Arial, sans-serif" font-size="72" font-weight="700">資産の流れを</text>
-  <text x="123" y="390" fill="#111111" font-family="Arial, sans-serif" font-size="72" font-weight="700">ひと目で</text>
-  <text x="123" y="470" fill="#777777" font-family="Arial, sans-serif" font-size="22">人それぞれの投資を、必要なときに見やすく。</text>
-  <text x="123" y="506" fill="#777777" font-family="Arial, sans-serif" font-size="22">アプリではなくウェブで続けるサービス</text>
-  <rect x="123" y="566" width="138" height="50" fill="#111111"/>
-  <text x="150" y="598" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="14" font-weight="700">無料で始める</text>
-  <rect x="279" y="566" width="138" height="50" fill="#FFFFFF" stroke="#111111"/>
-  <text x="311" y="598" fill="#111111" font-family="Arial, sans-serif" font-size="14" font-weight="700">概要を見る</text>
-  <rect x="595" y="186" width="430" height="480" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="4"/>
-  <text x="646" y="232" fill="#999999" font-family="Arial, sans-serif" font-size="11" letter-spacing="3">TOTAL ASSETS</text>
-  <text x="646" y="286" fill="#111111" font-family="Arial, sans-serif" font-size="44" font-weight="700">¥24,850,000</text>
-  <text x="919" y="232" fill="#999999" font-family="Arial, sans-serif" font-size="11" letter-spacing="3">DIVIDENDS</text>
-  <text x="917" y="286" fill="#111111" font-family="Arial, sans-serif" font-size="34" font-weight="700">+¥3,420,000</text>
-  <rect x="628" y="326" width="175" height="92" fill="#FAF9F7" stroke="#E6E3DF"/>
-  <rect x="821" y="326" width="175" height="92" fill="#FAF9F7" stroke="#E6E3DF"/>
-  <text x="648" y="356" fill="#999999" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">YTD</text>
-  <text x="648" y="394" fill="#111111" font-family="Arial, sans-serif" font-size="26" font-weight="700">¥724K</text>
-  <text x="841" y="356" fill="#999999" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">RETURN</text>
-  <text x="841" y="394" fill="#111111" font-family="Arial, sans-serif" font-size="26" font-weight="700">+15.2%</text>
-  <rect x="628" y="438" width="175" height="92" fill="#FAF9F7" stroke="#E6E3DF"/>
-  <rect x="821" y="438" width="175" height="92" fill="#FAF9F7" stroke="#E6E3DF"/>
-  <text x="648" y="468" fill="#999999" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">CASH</text>
-  <text x="648" y="506" fill="#111111" font-family="Arial, sans-serif" font-size="26" font-weight="700">¥1.2M</text>
-  <text x="841" y="468" fill="#999999" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">INCOME</text>
-  <text x="841" y="506" fill="#111111" font-family="Arial, sans-serif" font-size="26" font-weight="700">¥983,000</text>
-  <path d="M646 610C690 598 707 620 739 604C774 587 799 575 838 590C877 604 911 557 960 546" stroke="#1F1F1F" stroke-width="4" fill="none"/>
-  <path d="M646 624C690 634 723 637 756 626C794 615 820 611 847 595C877 578 925 587 963 574" stroke="#B0B0B0" stroke-width="3" fill="none"/>
-  <text x="953" y="588" fill="#999999" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">ASSET TREND</text>
-  <rect x="646" y="648" width="300" height="8" fill="#F0EFEC"/>
-  <rect x="646" y="669" width="252" height="8" fill="#F0EFEC"/>
-  <text x="123" y="818" fill="#111111" font-family="Arial, sans-serif" font-size="34" font-weight="700">必要な投資情報を、ひとつに</text>
-  <rect x="123" y="840" width="36" height="4" fill="#111111"/>
-  <rect x="123" y="924" width="280" height="284" fill="#FFFFFF"/>
-  <rect x="430" y="924" width="280" height="284" fill="#FFFFFF"/>
-  <rect x="737" y="924" width="280" height="284" fill="#FFFFFF"/>
-  <rect x="147" y="962" width="24" height="24" fill="none" stroke="#111111" stroke-width="2"/>
-  <path d="M150 977H168" stroke="#111111" stroke-width="2"/>
-  <text x="147" y="1028" fill="#111111" font-family="Arial, sans-serif" font-size="24" font-weight="700">入金管理</text>
-  <text x="147" y="1068" fill="#777777" font-family="Arial, sans-serif" font-size="16">入金記録をひとつの画面へ。</text>
-  <text x="147" y="1096" fill="#777777" font-family="Arial, sans-serif" font-size="16">シンプルだから続けやすい。</text>
-  <rect x="147" y="1134" width="232" height="52" fill="#FAF9F7"/>
-  <text x="215" y="1167" fill="#B7B0A9" font-family="Arial, sans-serif" font-size="10" letter-spacing="3">CASH FLOW</text>
-  <path d="M454 979L468 965L482 979L496 952" stroke="#111111" stroke-width="3" fill="none"/>
-  <text x="454" y="1028" fill="#111111" font-family="Arial, sans-serif" font-size="24" font-weight="700">資産推移グラフ</text>
-  <text x="454" y="1068" fill="#777777" font-family="Arial, sans-serif" font-size="16">増減の流れを見やすくし、</text>
-  <text x="454" y="1096" fill="#777777" font-family="Arial, sans-serif" font-size="16">長期の変化を把握できる。</text>
-  <rect x="454" y="1134" width="232" height="52" fill="#FAF9F7"/>
-  <text x="515" y="1167" fill="#B7B0A9" font-family="Arial, sans-serif" font-size="10" letter-spacing="3">TREND LINE</text>
-  <rect x="764" y="962" width="24" height="20" fill="none" stroke="#111111" stroke-width="2"/>
-  <path d="M764 970H788" stroke="#111111" stroke-width="2"/>
-  <text x="761" y="1028" fill="#111111" font-family="Arial, sans-serif" font-size="24" font-weight="700">配当管理</text>
-  <text x="761" y="1068" fill="#777777" font-family="Arial, sans-serif" font-size="16">配当の積み上がりも確認でき、</text>
-  <text x="761" y="1096" fill="#777777" font-family="Arial, sans-serif" font-size="16">次の判断材料になる。</text>
-  <rect x="761" y="1134" width="232" height="52" fill="#FAF9F7"/>
-  <text x="808" y="1167" fill="#B7B0A9" font-family="Arial, sans-serif" font-size="10" letter-spacing="3">DIVIDEND PLANNER</text>
-  <text x="123" y="1412" fill="#111111" font-family="Arial, sans-serif" font-size="34" font-weight="700">見やすさと使いやすさを</text>
-  <text x="123" y="1452" fill="#111111" font-family="Arial, sans-serif" font-size="34" font-weight="700">重視した設計</text>
-  <rect x="123" y="1478" width="36" height="4" fill="#111111"/>
-  <text x="123" y="1560" fill="#C5BEB7" font-family="Arial, sans-serif" font-size="22" font-weight="700">01</text>
-  <text x="172" y="1560" fill="#111111" font-family="Arial, sans-serif" font-size="19" font-weight="700">必要な情報で確認できる</text>
-  <text x="172" y="1592" fill="#777777" font-family="Arial, sans-serif" font-size="15">見るべき情報だけを絞り、迷わず確認できるようにする。</text>
-  <text x="123" y="1650" fill="#C5BEB7" font-family="Arial, sans-serif" font-size="22" font-weight="700">02</text>
-  <text x="172" y="1650" fill="#111111" font-family="Arial, sans-serif" font-size="19" font-weight="700">情報が一画面へ集約</text>
-  <text x="172" y="1682" fill="#777777" font-family="Arial, sans-serif" font-size="15">複数サービスを行き来しなくても、すぐ状況がつかめる。</text>
-  <text x="123" y="1740" fill="#C5BEB7" font-family="Arial, sans-serif" font-size="22" font-weight="700">03</text>
-  <text x="172" y="1740" fill="#111111" font-family="Arial, sans-serif" font-size="19" font-weight="700">山場を見やすく並べる</text>
-  <text x="172" y="1772" fill="#777777" font-family="Arial, sans-serif" font-size="15">続けたくなる余白と視線誘導で負担の少ない画面にする。</text>
-  <rect x="700" y="1465" width="330" height="330" fill="#E8E5E0"/>
-  <rect x="676" y="1442" width="330" height="330" fill="#F2F0EC"/>
-  <rect x="724" y="1488" width="330" height="330" fill="#E3E0DA"/>
-  <text x="782" y="1672" fill="#B7B0A9" font-family="Arial, sans-serif" font-size="12" letter-spacing="4">INTUITIVENESS / STRUCTURE / UI</text>
+﻿<svg width="1200" height="2128" viewBox="0 0 1200 2128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="2128" fill="#252525"/>
+  <rect x="72" y="28" width="1056" height="2072" fill="#F7F6F3"/>
+
+  <rect x="72" y="28" width="1056" height="94" fill="#FFFFFF"/>
+  <text x="124" y="79" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="18" font-weight="700">Stock Note</text>
+  <text x="325" y="79" fill="#444444" font-family="'Noto Sans JP', Arial, sans-serif" font-size="11">サービス紹介</text>
+  <text x="409" y="79" fill="#8F8F8F" font-family="'Noto Sans JP', Arial, sans-serif" font-size="11">制作物</text>
+  <text x="471" y="79" fill="#8F8F8F" font-family="'Noto Sans JP', Arial, sans-serif" font-size="11">プロセス</text>
+  <text x="548" y="79" fill="#8F8F8F" font-family="'Noto Sans JP', Arial, sans-serif" font-size="11">よくある質問</text>
+  <text x="938" y="79" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="11" font-weight="700">ログイン</text>
+  <rect x="1001" y="56" width="91" height="30" fill="#111111"/>
+  <text x="1016" y="76" fill="#FFFFFF" font-family="'Noto Sans JP', Arial, sans-serif" font-size="10" font-weight="700">無料で始める</text>
+
+  <text x="124" y="320" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="70" font-weight="700">資産の流れを</text>
+  <text x="124" y="394" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="70" font-weight="700">ひと目で</text>
+  <text x="124" y="468" fill="#7C7C7C" font-family="'Noto Sans JP', Arial, sans-serif" font-size="21">人それぞれの投資を、必要なときに見やすく。</text>
+  <text x="124" y="502" fill="#7C7C7C" font-family="'Noto Sans JP', Arial, sans-serif" font-size="21">アプリではなくウェブで続けるサービス</text>
+
+  <rect x="124" y="568" width="142" height="48" fill="#111111"/>
+  <text x="149" y="599" fill="#FFFFFF" font-family="'Noto Sans JP', Arial, sans-serif" font-size="13" font-weight="700">無料で始める</text>
+  <rect x="284" y="568" width="142" height="48" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="599" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="13" font-weight="700">概要を見る</text>
+
+  <rect x="596" y="186" width="430" height="480" fill="#FFFFFF" stroke="#D9D7D1" stroke-width="4"/>
+  <text x="640" y="230" fill="#969696" font-family="Arial, sans-serif" font-size="11" letter-spacing="2.8">TOTAL ASSETS</text>
+  <text x="640" y="286" fill="#111111" font-family="Arial, sans-serif" font-size="44" font-weight="700">¥24,850,000</text>
+  <text x="920" y="230" fill="#969696" font-family="Arial, sans-serif" font-size="11" letter-spacing="2.8">DIVIDENDS</text>
+  <text x="920" y="286" fill="#111111" font-family="Arial, sans-serif" font-size="34" font-weight="700">+¥3,420,000</text>
+
+  <rect x="628" y="326" width="175" height="90" fill="#F8F7F5" stroke="#E6E3DF"/>
+  <rect x="822" y="326" width="175" height="90" fill="#F8F7F5" stroke="#E6E3DF"/>
+  <rect x="628" y="436" width="175" height="90" fill="#F8F7F5" stroke="#E6E3DF"/>
+  <rect x="822" y="436" width="175" height="90" fill="#F8F7F5" stroke="#E6E3DF"/>
+  <text x="648" y="355" fill="#9B9B9B" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">YTD</text>
+  <text x="648" y="392" fill="#111111" font-family="Arial, sans-serif" font-size="25" font-weight="700">¥724K</text>
+  <text x="842" y="355" fill="#9B9B9B" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">RETURN</text>
+  <text x="842" y="392" fill="#111111" font-family="Arial, sans-serif" font-size="25" font-weight="700">+15.2%</text>
+  <text x="648" y="465" fill="#9B9B9B" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">CASH</text>
+  <text x="648" y="502" fill="#111111" font-family="Arial, sans-serif" font-size="25" font-weight="700">¥1.2M</text>
+  <text x="842" y="465" fill="#9B9B9B" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">INCOME</text>
+  <text x="842" y="502" fill="#111111" font-family="Arial, sans-serif" font-size="25" font-weight="700">¥983,000</text>
+
+  <path d="M646 610C692 596 720 622 754 606C792 588 813 577 846 592C876 606 917 557 969 544" stroke="#111111" stroke-width="4" fill="none"/>
+  <path d="M646 626C692 636 725 640 760 630C797 620 822 615 854 598C887 580 928 590 969 575" stroke="#B7B7B7" stroke-width="3" fill="none"/>
+  <text x="950" y="586" fill="#A2A2A2" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">ASSET TRENDING</text>
+  <rect x="646" y="648" width="302" height="7" fill="#ECEAE5"/>
+  <rect x="646" y="668" width="252" height="7" fill="#ECEAE5"/>
+
+  <text x="124" y="820" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="34" font-weight="700">必要な投資情報を、ひとつに</text>
+  <rect x="124" y="844" width="34" height="4" fill="#111111"/>
+
+  <rect x="124" y="924" width="280" height="286" fill="#FFFFFF"/>
+  <rect x="432" y="924" width="280" height="286" fill="#FFFFFF"/>
+  <rect x="740" y="924" width="280" height="286" fill="#FFFFFF"/>
+
+  <rect x="148" y="960" width="22" height="22" fill="none" stroke="#111111" stroke-width="2"/>
+  <path d="M151 975H167" stroke="#111111" stroke-width="2"/>
+  <text x="148" y="1028" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="24" font-weight="700">入金管理</text>
+  <text x="148" y="1068" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">入金記録をひとつの画面へ。</text>
+  <text x="148" y="1094" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">シンプルだから続けやすい。</text>
+  <rect x="148" y="1135" width="232" height="52" fill="#F6F5F2"/>
+  <text x="210" y="1167" fill="#B8B0A7" font-family="Arial, sans-serif" font-size="10" letter-spacing="3">CASH FLOW</text>
+
+  <path d="M455 978L469 963L483 978L497 952" stroke="#111111" stroke-width="3" fill="none"/>
+  <text x="456" y="1028" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="24" font-weight="700">資産推移グラフ</text>
+  <text x="456" y="1068" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">増減の流れを見やすくし、</text>
+  <text x="456" y="1094" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">長期の変化を把握できる。</text>
+  <rect x="456" y="1135" width="232" height="52" fill="#F6F5F2"/>
+  <text x="520" y="1167" fill="#B8B0A7" font-family="Arial, sans-serif" font-size="10" letter-spacing="3">TREND LINE</text>
+
+  <rect x="764" y="960" width="22" height="18" fill="none" stroke="#111111" stroke-width="2"/>
+  <path d="M764 969H786" stroke="#111111" stroke-width="2"/>
+  <text x="764" y="1028" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="24" font-weight="700">配当管理</text>
+  <text x="764" y="1068" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">配当の積み上がりも確認でき、</text>
+  <text x="764" y="1094" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">次の判断材料になる。</text>
+  <rect x="764" y="1135" width="232" height="52" fill="#F6F5F2"/>
+  <text x="809" y="1167" fill="#B8B0A7" font-family="Arial, sans-serif" font-size="10" letter-spacing="2.6">DIVIDEND PLANNER</text>
+
+  <text x="124" y="1412" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="34" font-weight="700">見やすさと使いやすさを</text>
+  <text x="124" y="1452" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="34" font-weight="700">重視した設計</text>
+  <rect x="124" y="1478" width="34" height="4" fill="#111111"/>
+
+  <text x="124" y="1560" fill="#C7BFB7" font-family="Arial, sans-serif" font-size="22" font-weight="700">01</text>
+  <text x="172" y="1560" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="19" font-weight="700">必要な情報だけで確認できる</text>
+  <text x="172" y="1592" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">見るべき項目を絞り、迷わず確認できるようにする。</text>
+
+  <text x="124" y="1650" fill="#C7BFB7" font-family="Arial, sans-serif" font-size="22" font-weight="700">02</text>
+  <text x="172" y="1650" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="19" font-weight="700">情報が一画面に集約</text>
+  <text x="172" y="1682" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">複数サービスを行き来しなくても、すぐ状況をつかめる。</text>
+
+  <text x="124" y="1740" fill="#C7BFB7" font-family="Arial, sans-serif" font-size="22" font-weight="700">03</text>
+  <text x="172" y="1740" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="19" font-weight="700">山場を見やすく並べる</text>
+  <text x="172" y="1772" fill="#7B7B7B" font-family="'Noto Sans JP', Arial, sans-serif" font-size="15">続けやすい余白と視線誘導で負担の少ない画面にする。</text>
+
+  <rect x="700" y="1462" width="330" height="330" fill="#E5E2DC"/>
+  <rect x="676" y="1438" width="330" height="330" fill="#F0EEE9"/>
+  <rect x="724" y="1486" width="330" height="330" fill="#DEDBD5"/>
+  <text x="786" y="1672" fill="#B8B0A7" font-family="Arial, sans-serif" font-size="11" letter-spacing="4">INTUITIVENESS / STRUCTURE / UI</text>
+
   <rect x="72" y="1780" width="1056" height="255" fill="#050505"/>
-  <text x="318" y="1880" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="52" font-weight="700">保有株・配当・資産推移を、</text>
-  <text x="378" y="1940" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="52" font-weight="700">ひとつで管理しませんか</text>
-  <rect x="390" y="1972" width="130" height="48" fill="#FFFFFF"/>
-  <text x="425" y="2003" fill="#111111" font-family="Arial, sans-serif" font-size="14" font-weight="700">無料ではじめる</text>
-  <rect x="544" y="1972" width="130" height="48" fill="#050505" stroke="#FFFFFF"/>
-  <text x="581" y="2003" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="14" font-weight="700">お問い合わせ</text>
-  <rect x="72" y="1968" width="1056" height="56" fill="#FFFFFF"/>
-  <text x="122" y="2000" fill="#111111" font-family="Arial, sans-serif" font-size="18" font-weight="700">Stock Note</text>
-  <text x="122" y="2018" fill="#999999" font-family="Arial, sans-serif" font-size="10">© 2026 Stock Note. All Rights Reserved.</text>
-  <text x="832" y="2000" fill="#777777" font-family="Arial, sans-serif" font-size="11">CTTA</text>
-  <text x="887" y="2000" fill="#777777" font-family="Arial, sans-serif" font-size="11">PRIVACY</text>
-  <text x="968" y="2000" fill="#777777" font-family="Arial, sans-serif" font-size="11">プライバシーポリシー</text>
+  <text x="316" y="1882" fill="#FFFFFF" font-family="'Noto Sans JP', Arial, sans-serif" font-size="52" font-weight="700">保有株・配当・資産推移を、</text>
+  <text x="376" y="1942" fill="#FFFFFF" font-family="'Noto Sans JP', Arial, sans-serif" font-size="52" font-weight="700">一つで管理しませんか</text>
+  <rect x="388" y="1973" width="132" height="46" fill="#FFFFFF"/>
+  <text x="421" y="2002" fill="#111111" font-family="'Noto Sans JP', Arial, sans-serif" font-size="13" font-weight="700">無料ではじめる</text>
+  <rect x="542" y="1973" width="132" height="46" fill="#050505" stroke="#FFFFFF"/>
+  <text x="574" y="2002" fill="#FFFFFF" font-family="'Noto Sans JP', Arial, sans-serif" font-size="13" font-weight="700">お問い合わせ</text>
+
+  <rect x="72" y="2036" width="1056" height="64" fill="#FFFFFF"/>
+  <text x="122" y="2073" fill="#111111" font-family="Arial, sans-serif" font-size="18" font-weight="700">Stock Note</text>
+  <text x="122" y="2092" fill="#9A9A9A" font-family="Arial, sans-serif" font-size="10">© 2026 Stock Note. All Rights Reserved.</text>
+  <text x="834" y="2073" fill="#777777" font-family="Arial, sans-serif" font-size="10">CTTA</text>
+  <text x="884" y="2073" fill="#777777" font-family="Arial, sans-serif" font-size="10">PRIVACY</text>
+  <text x="968" y="2073" fill="#777777" font-family="'Noto Sans JP', Arial, sans-serif" font-size="10">プライバシーポリシー</text>
 </svg>
+
+
