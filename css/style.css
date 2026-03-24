@@ -327,6 +327,14 @@ a:hover { color: var(--black); }
   background: var(--white);
 }
 
+.wireframe-preview iframe {
+  display: block;
+  width: 100%;
+  min-height: 1360px;
+  border: 1px solid var(--border-dark);
+  background: var(--white);
+}
+
 .wireframe-preview figcaption {
   margin-top: 10px;
   font-size: 12px;

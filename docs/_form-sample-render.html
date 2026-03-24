@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Note Form Sample</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1f3a5f;
+      --primary-light: #eaf0f6;
+      --text-main: #2b2f33;
+      --text-sub: #7a838c;
+      --border: #d8dee5;
+      --bg: #f7f8fa;
+      --white: #ffffff;
+      --error: #c64545;
+      --error-bg: #fdf1f1;
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans JP", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+    }
+
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+    }
+
+    .card {
+      width: min(760px, 100%);
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 8px 24px rgba(31, 58, 95, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.5;
+      letter-spacing: 0.01em;
+      color: var(--primary);
+    }
+
+    p.lead {
+      margin: 0 0 28px;
+      font-size: 16px;
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+      color: var(--text-main);
+    }
+
+    .form-group { margin-bottom: 22px; }
+
+    .form-label {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--text-main);
+    }
+
+    .form-help {
+      margin-top: 6px;
+      font-size: 13px;
+      line-height: 1.6;
+      letter-spacing: 0.03em;
+      color: var(--text-sub);
+    }
+
+    .form-error {
+      margin-top: 6px;
+      font-size: 13px;
+      line-height: 1.6;
+      letter-spacing: 0.03em;
+      color: var(--error);
+    }
+
+    .form-input,
+    .form-select,
+    .form-textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--white);
+      color: var(--text-main);
+      font-family: "Noto Sans JP", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+      outline: none;
+    }
+
+    .form-input::placeholder,
+    .form-textarea::placeholder { color: var(--text-sub); }
+
+    .form-textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .form-input:focus,
+    .form-select:focus,
+    .form-textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px var(--primary-light);
+    }
+
+    .form-input.is-error,
+    .form-select.is-error,
+    .form-textarea.is-error {
+      border-color: var(--error);
+      background: var(--error-bg);
+    }
+
+    .form-input.is-error:focus,
+    .form-select.is-error:focus,
+    .form-textarea.is-error:focus {
+      border-color: var(--error);
+      box-shadow: 0 0 0 4px rgba(198, 69, 69, 0.12);
+    }
+
+    .form-select {
+      appearance: none;
+      background-image:
+        linear-gradient(45deg, transparent 50%, var(--text-sub) 50%),
+        linear-gradient(135deg, var(--text-sub) 50%, transparent 50%);
+      background-position:
+        calc(100% - 22px) calc(50% - 2px),
+        calc(100% - 16px) calc(50% - 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+      padding-right: 44px;
+    }
+
+    .choice-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .choice-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .choice-item input[type="checkbox"],
+    .choice-item input[type="radio"] {
+      width: 20px;
+      height: 20px;
+      margin: 0;
+      accent-color: var(--primary);
+      cursor: pointer;
+      outline: none;
+    }
+
+    .choice-item input[type="checkbox"]:focus-visible,
+    .choice-item input[type="radio"]:focus-visible {
+      box-shadow: 0 0 0 4px var(--primary-light);
+      border-radius: 6px;
+    }
+
+    .choice-item label {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--text-main);
+      cursor: pointer;
+    }
+
+    .choice-group.is-error {
+      padding: 12px 16px;
+      border: 1px solid var(--error);
+      border-radius: var(--radius);
+      background: var(--error-bg);
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .divider {
+      margin: 28px 0 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    .sub {
+      margin-bottom: 12px;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.015em;
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Stock Note フォームサンプル</h1>
+      <p class="lead">デザインガイドに合わせたフォーム要素のサンプルです。入力欄、選択、フォーカス、エラー表示をまとめて確認できます。</p>
+
+      <div class="row">
+        <div class="form-group">
+          <label class="form-label" for="user-name">ユーザー名</label>
+          <input class="form-input" id="user-name" type="text" placeholder="例）佐藤 恒一" />
+          <p class="form-help">氏名を入力してください。</p>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="account-type">口座区分</label>
+          <select class="form-select" id="account-type">
+            <option value="">選択してください</option>
+            <option>特定口座</option>
+            <option>NISA</option>
+            <option>一般口座</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="memo">備考</label>
+        <textarea class="form-textarea" id="memo" placeholder="補足事項があれば入力してください"></textarea>
+      </div>
+
+      <div class="divider"></div>
+      <div class="sub">選択系サンプル</div>
+
+      <div class="form-group">
+        <span class="form-label">通知設定</span>
+        <div class="choice-group">
+          <div class="choice-item">
+            <input type="checkbox" id="notice1" />
+            <label for="notice1">メール通知を受け取る</label>
+          </div>
+          <div class="choice-item">
+            <input type="checkbox" id="notice2" />
+            <label for="notice2">メンテナンス情報を受け取る</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <span class="form-label">ステータス</span>
+        <div class="choice-group">
+          <div class="choice-item">
+            <input type="radio" id="status1" name="status" checked />
+            <label for="status1">有効</label>
+          </div>
+          <div class="choice-item">
+            <input type="radio" id="status2" name="status" />
+            <label for="status2">無効</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="sub">エラー表示サンプル</div>
+
+      <div class="row">
+        <div class="form-group">
+          <label class="form-label" for="stock-code">証券コード</label>
+          <input class="form-input is-error" id="stock-code" type="text" placeholder="例）7203" />
+          <p class="form-error">証券コードを入力してください。</p>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="dividend">年間配当金額</label>
+          <input class="form-input is-error" id="dividend" type="text" placeholder="例）2000" />
+          <p class="form-error">年間配当金額を入力してください。</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <span class="form-label">確認事項</span>
+        <div class="choice-group is-error">
+          <div class="choice-item">
+            <input type="checkbox" id="agree" />
+            <label for="agree">利用規約に同意する</label>
+          </div>
+        </div>
+        <p class="form-error">チェックを入れてください。</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

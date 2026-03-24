@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Note Components Sample</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1f3a5f;
+      --primary-hover: #16304f;
+      --text-main: #2b2f33;
+      --text-sub: #7a838c;
+      --border: #d8dee5;
+      --bg: #f7f8fa;
+      --white: #ffffff;
+      --radius: 16px;
+      --info-bg: #eef4fa;
+      --info-border: #9bb7d4;
+      --info-text: #1f3a5f;
+      --success-bg: #edf8f2;
+      --success-border: #8bc5a4;
+      --success-text: #2f6f4f;
+      --warning-bg: #fff7e8;
+      --warning-border: #e5b96c;
+      --warning-text: #8a5a12;
+      --error-bg: #fdf1f1;
+      --error-border: #e2a0a0;
+      --error-text: #a23b3b;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans JP", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 24px 64px;
+      display: grid;
+      gap: 40px;
+    }
+
+    .section {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 8px 24px rgba(31, 58, 95, 0.08);
+    }
+
+    .section-title {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.5;
+      letter-spacing: 0.01em;
+      color: var(--primary);
+    }
+
+    .section-lead {
+      margin: 0 0 24px;
+      font-size: 16px;
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+      color: var(--text-sub);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 140px;
+      padding: 12px 24px;
+      border-radius: var(--radius);
+      border: 1px solid transparent;
+      font-family: "Noto Sans JP", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: var(--white);
+      border-color: var(--primary);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      border-color: var(--primary-hover);
+    }
+
+    .card-stage {
+      width: 100%;
+      height: 280px;
+      overflow: visible;
+    }
+
+    .card {
+      width: 360px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      overflow: hidden;
+      transform: scale(0.65);
+      transform-origin: top left;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 180px;
+      display: block;
+      object-fit: cover;
+      background: linear-gradient(135deg, #e9eff5, #dbe4ee);
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-title {
+      margin: 0 0 8px;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.6;
+      letter-spacing: 0.015em;
+      color: var(--text-main);
+    }
+
+    .card-text {
+      margin: 0 0 20px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+      color: var(--text-sub);
+    }
+
+    .table-wrap {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      overflow: hidden;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+    }
+
+    .table thead th {
+      background: #eef3f8;
+      color: var(--primary);
+      text-align: left;
+      padding: 14px 16px;
+      font-weight: 700;
+      line-height: 1.5;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .table tbody td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    .table tbody tr:nth-child(even) {
+      background: #fafbfc;
+    }
+
+    .table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .alerts {
+      display: grid;
+      gap: 16px;
+    }
+
+    .alert {
+      border: 1px solid;
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.7;
+      letter-spacing: 0.02em;
+    }
+
+    .alert strong {
+      display: inline-block;
+      margin-right: 8px;
+      font-weight: 700;
+    }
+
+    .alert-info {
+      background: var(--info-bg);
+      border-color: var(--info-border);
+      color: var(--info-text);
+    }
+
+    .alert-success {
+      background: var(--success-bg);
+      border-color: var(--success-border);
+      color: var(--success-text);
+    }
+
+    .alert-warning {
+      background: var(--warning-bg);
+      border-color: var(--warning-border);
+      color: var(--warning-text);
+    }
+
+    .alert-error {
+      background: var(--error-bg);
+      border-color: var(--error-border);
+      color: var(--error-text);
+    }
+
+    @media (max-width: 760px) {
+      .wrap { padding: 24px 16px 40px; }
+      .section { padding: 20px; }
+      .card { max-width: 100%; }
+      .table-wrap { overflow-x: auto; }
+      .table { min-width: 720px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="section">
+      <h1 class="section-title">カードコンポーネント</h1>
+      <p class="section-lead">画像、タイトル、テキスト、ボタン付きの基本カードサンプルです。</p>
+      <div class="card-stage">
+        <article class="card">
+          <img
+            class="card-image"
+            src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80"
+            alt="資産管理イメージ"
+          />
+          <div class="card-body">
+            <h2 class="card-title">配当管理の基本</h2>
+            <p class="card-text">年間配当金や保有銘柄の状況を、見やすくシンプルに整理するためのカード例です。</p>
+            <a href="#" class="btn btn-primary">詳しく見る</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h1 class="section-title">テーブル</h1>
+      <p class="section-lead">ヘッダー付き、ストライプ表示のテーブルサンプルです。</p>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>銘柄名</th>
+              <th>保有株数</th>
+              <th>評価額</th>
+              <th>損益</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>トヨタ自動車</td>
+              <td>100株</td>
+              <td>285,000円</td>
+              <td>+15,000円</td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>NTT</td>
+              <td>200株</td>
+              <td>39,000円</td>
+              <td>+2,100円</td>
+            </tr>
+            <tr>
+              <td>003</td>
+              <td>三菱UFJ</td>
+              <td>100株</td>
+              <td>185,000円</td>
+              <td>+5,300円</td>
+            </tr>
+            <tr>
+              <td>004</td>
+              <td>オリックス</td>
+              <td>50株</td>
+              <td>132,000円</td>
+              <td>-1,200円</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h1 class="section-title">アラート</h1>
+      <p class="section-lead">情報・成功・注意・エラーの4種類です。</p>
+      <div class="alerts">
+        <div class="alert alert-info">
+          <strong>情報</strong>メンテナンスは本日 22:00 から実施予定です。
+        </div>
+        <div class="alert alert-success">
+          <strong>成功</strong>配当金情報を正常に更新しました。
+        </div>
+        <div class="alert alert-warning">
+          <strong>注意</strong>未入力の項目があります。内容をご確認ください。
+        </div>
+        <div class="alert alert-error">
+          <strong>エラー</strong>データの保存に失敗しました。時間をおいて再度お試しください。
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
