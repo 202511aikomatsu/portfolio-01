@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -988,7 +988,96 @@
           <div class="fill-label">レイアウト基本ルール <span class="required">必須</span></div>
           <div class="fill-hint">グリッド・余白・角丸・シャドウ等の数値ルール</div>
           <div class="fill-content">
-            <p>（レイアウトルールを記載）</p>
+            <p><strong>レイアウトガイドライン</strong></p>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>項目</th>
+                  <th>推奨値</th>
+                  <th>理由</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>コンテンツ最大幅</td>
+                  <td><code>1200px</code></td>
+                  <td>情報量が多い資産管理サービスでも横に広がりすぎず、表・カード・グラフを無理なく配置できるため</td>
+                </tr>
+                <tr>
+                  <td>グリッドシステム</td>
+                  <td><code>12カラム</code></td>
+                  <td>Webサービス・管理画面ともに使いやすく、2カラム・3カラム・4カラム構成に柔軟に対応できるため</td>
+                </tr>
+                <tr>
+                  <td>ガター幅</td>
+                  <td><code>24px</code></td>
+                  <td>情報同士を適度に分離しつつ、詰まりすぎない整理感を出せるため</td>
+                </tr>
+                <tr>
+                  <td>セクション間の余白</td>
+                  <td><code>80px</code></td>
+                  <td>セクションごとの役割を明確に分け、視線移動をしやすくするため</td>
+                </tr>
+                <tr>
+                  <td>要素間の余白</td>
+                  <td><code>24px</code></td>
+                  <td>フォーム、カード、ボタン、表などのUI要素を読みやすく整理できるため</td>
+                </tr>
+                <tr>
+                  <td>小さい要素間の余白</td>
+                  <td><code>16px</code></td>
+                  <td>ラベルと入力欄、カード内テキストなど、関連性の高い要素を自然にまとめやすいため</td>
+                </tr>
+                <tr>
+                  <td>角丸</td>
+                  <td><code>16px</code></td>
+                  <td>金融系らしい落ち着きは保ちつつ、硬すぎない印象を作れるため</td>
+                </tr>
+                <tr>
+                  <td>小さめ角丸</td>
+                  <td><code>8px</code></td>
+                  <td>入力欄、テーブル内ボタン、タブなど細かい要素に使いやすいため</td>
+                </tr>
+                <tr>
+                  <td>シャドウ</td>
+                  <td><code>0 8px 24px rgba(31, 58, 95, 0.08)</code></td>
+                  <td>ネイビー系を含んだやわらかい影で、信頼感を保ちながらカードの区切りを出しやすいため</td>
+                </tr>
+                <tr>
+                  <td>軽いシャドウ</td>
+                  <td><code>0 2px 8px rgba(31, 58, 95, 0.06)</code></td>
+                  <td>入力欄、小カード、ドロップダウンなどに使いやすい控えめな影のため</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p><strong>ブレークポイント</strong></p>
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th>デバイス</th>
+                  <th>推奨ブレークポイント</th>
+                  <th>レイアウト方針</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>PC</td>
+                  <td><code>1200px以上</code></td>
+                  <td>12カラムを基本に、2〜4カラム構成を使う</td>
+                </tr>
+                <tr>
+                  <td>タブレット</td>
+                  <td><code>768px〜1199px</code></td>
+                  <td>8カラム程度を意識し、2カラム中心に整理する</td>
+                </tr>
+                <tr>
+                  <td>スマートフォン</td>
+                  <td><code>767px以下</code></td>
+                  <td>1カラム中心にし、縦積みで見やすさを優先する</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
 
